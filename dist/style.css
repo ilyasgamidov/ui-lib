@@ -120,6 +120,21 @@
     .dropdown-item:hover {
       background-color: rgba(0, 0, 0, 0.1); }
 
+.card {
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.05); }
+  .card-body {
+    padding: 15px; }
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .card-text {
+    margin-bottom: 20px; }
+  .card a {
+    text-decoration: none; }
+
 .hidden {
   visibility: hidden; }
 
@@ -420,3 +435,8 @@
 
 .h-500 {
   height: 500px; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
