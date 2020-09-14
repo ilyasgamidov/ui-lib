@@ -1,0 +1,22 @@
+.tab
+    max-width: 800px
+    &-panel
+        display: flex
+        border: 1px solid rgba(0, 0, 0, .2)
+        border-radius: 4px 4px 0 0
+    &-item
+        cursor: pointer
+        padding: 10px 20px
+        border-right: 1px solid rgba(0, 0, 0, .2)
+        &:last-child
+            border-right: none
+        &--active
+            background: rgba(0, 0, 0, .03)
+    &-content
+        display: none
+        padding: 20px
+        border: 1px solid rgba(0, 0, 0, .2)
+        border-top: none
+        border-radius: 0 0 4px 4px 
+        &--active
+            display: block
