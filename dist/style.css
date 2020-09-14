@@ -198,6 +198,34 @@
     .tab-content--active {
       display: block; }
 
+.accordion {
+  max-width: 800px; }
+  .accordion-head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #343a40; }
+    .accordion-head--active {
+      color: #025fff; }
+  .accordion-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity .5s, max-height 0.6s, padding .1s;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+    background: #fff;
+    border-radius: 0 0 4px 4px; }
+    .accordion-content--active {
+      opacity: 1;
+      overflow: visible; }
+  .accordion-inner {
+    display: block;
+    padding: 20px; }
+
 .hidden {
   visibility: hidden; }
 
